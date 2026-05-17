@@ -1,0 +1,1 @@
+<img src="{{ asset('/images/logo/logo.svg')}}" alt="" class="w-22 h-10 mb-4">

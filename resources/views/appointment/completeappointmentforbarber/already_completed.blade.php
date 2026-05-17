@@ -1,0 +1,1 @@
+<h2>Appointment is already completed.</h2>

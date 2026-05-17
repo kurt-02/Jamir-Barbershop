@@ -1,0 +1,133 @@
+{
+  "resources/css/about.css": {
+    "file": "assets/about-IaXQUeQ9.css",
+    "src": "resources/css/about.css",
+    "isEntry": true
+  },
+  "resources/css/admin/admin.css": {
+    "file": "assets/admin-tn0RQdqM.css",
+    "src": "resources/css/admin/admin.css",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-s_0MO-MN.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/confirmation.css": {
+    "file": "assets/confirmation-CZN48ixF.css",
+    "src": "resources/css/appointment-css/confirmation.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/date-time-barber.css": {
+    "file": "assets/date-time-barber-PhDdGBM4.css",
+    "src": "resources/css/appointment-css/date-time-barber.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/location.css": {
+    "file": "assets/location-Dqoib6ef.css",
+    "src": "resources/css/appointment-css/location.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/no-show.css": {
+    "file": "assets/no-show-BZ8fUBmL.css",
+    "src": "resources/css/appointment-css/no-show.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/reschedule-form.css": {
+    "file": "assets/reschedule-form-BlwYbSod.css",
+    "src": "resources/css/appointment-css/reschedule-form.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/reschedule.css": {
+    "file": "assets/reschedule-BD5szd8r.css",
+    "src": "resources/css/appointment-css/reschedule.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/service.css": {
+    "file": "assets/service-Bk3V7p2i.css",
+    "src": "resources/css/appointment-css/service.css",
+    "isEntry": true
+  },
+  "resources/css/appointment-css/steps.css": {
+    "file": "assets/steps-UNJwl0dO.css",
+    "src": "resources/css/appointment-css/steps.css",
+    "isEntry": true
+  },
+  "resources/css/barbers.css": {
+    "file": "assets/barbers-DkXwsFl1.css",
+    "src": "resources/css/barbers.css",
+    "isEntry": true
+  },
+  "resources/css/dashboard.css": {
+    "file": "assets/dashboard-Cc9DCJE3.css",
+    "src": "resources/css/dashboard.css",
+    "isEntry": true
+  },
+  "resources/css/face-result.css": {
+    "file": "assets/face-result-l0sNRNKZ.js",
+    "name": "face-result",
+    "src": "resources/css/face-result.css",
+    "isEntry": true
+  },
+  "resources/css/face-upload.css": {
+    "file": "assets/face-upload-l0sNRNKZ.js",
+    "name": "face-upload",
+    "src": "resources/css/face-upload.css",
+    "isEntry": true
+  },
+  "resources/css/home.css": {
+    "file": "assets/home-CBnp0rK2.css",
+    "src": "resources/css/home.css",
+    "isEntry": true
+  },
+  "resources/css/login.css": {
+    "file": "assets/login-DLhIfNkh.css",
+    "src": "resources/css/login.css",
+    "isEntry": true
+  },
+  "resources/css/rate.css": {
+    "file": "assets/rate-BOG3JPqX.css",
+    "src": "resources/css/rate.css",
+    "isEntry": true
+  },
+  "resources/css/register.css": {
+    "file": "assets/register-IUIMHXrB.css",
+    "src": "resources/css/register.css",
+    "isEntry": true
+  },
+  "resources/css/reviews.css": {
+    "file": "assets/reviews-DZgfkpqf.css",
+    "src": "resources/css/reviews.css",
+    "isEntry": true
+  },
+  "resources/css/services.css": {
+    "file": "assets/services-3Vo4jutm.css",
+    "src": "resources/css/services.css",
+    "isEntry": true
+  },
+  "resources/images/backgrounds/background-main2.jpg": {
+    "file": "assets/background-main2-OEjiWGkR.jpg",
+    "src": "resources/images/backgrounds/background-main2.jpg"
+  },
+  "resources/images/backgrounds/login-register-bg.png": {
+    "file": "assets/login-register-bg-CZv6OZmr.png",
+    "src": "resources/images/backgrounds/login-register-bg.png"
+  },
+  "resources/images/backgrounds/reviews-bg.png": {
+    "file": "assets/reviews-bg-CsXFlCdE.png",
+    "src": "resources/images/backgrounds/reviews-bg.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BnqfKBla.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/appointment/date-time-barber.js": {
+    "file": "assets/date-time-barber-C5XkbUV6.js",
+    "name": "date-time-barber",
+    "src": "resources/js/appointment/date-time-barber.js",
+    "isEntry": true
+  }
+}

@@ -1,0 +1,192 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1 20px;
+    margin-bottom: 50px;
+    z-index: 1100;
+    position: relative;
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+
+.nav-left a {
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+.nav-right a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #E8B931;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.nav-center img {
+    height: 40px;
+}
+
+.appointment-wrapper {
+    position: fixed;
+    top: 70px; 
+    left: 60%;
+    transform: translateX(-50%); 
+    bottom: 20px; 
+    max-width: 2000px; 
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 12px;    
+    z-index: 10;   
+}
+
+#mobile-menu {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 1000; /* make sure it sits on top */
+}
+
+
+.steps {
+    width: 80%;
+    max-width: 500px;
+    overflow-y: auto;
+}
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+    margin-left: 4rem;
+}
+
+.steps h1 {
+    display: flex;
+    flex: 1;
+    color: #fff;
+    line-height:2;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 2px solid white;
+    font-family: 'Instrument Serif', serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 3rem;
+}
+
+.steps h1:last-child {
+    border-right: none;
+    border-bottom: none;
+}
+
+.steps h1.active {
+    color: #FEC147;
+}
+
+/* center the booking slot content */
+.appointment-content {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Tablet view (≤1024px) */
+@media (max-width: 1024px) {
+    .appointment-wrapper {
+        position: relative; 
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        height: auto;
+        flex-direction: column; /* stack steps and content */
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+
+    .steps {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .steps h1 {
+        font-size: 2rem;
+        margin: 0 1rem;
+        border-bottom: none;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* Mobile view (≤768px) */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+
+    .nav-left,
+    .nav-right {
+        display: none; /* hide for mobile, hamburger takes over */
+    }
+
+    .nav-center img {
+        height: 35px;
+    }
+
+    .appointment-wrapper {
+        padding: 0.5rem;
+    }
+
+    .steps {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border-bottom: 2px solid white;
+    }
+
+    .steps h1 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin: 0;
+        border: none;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+
+    #mobile-menu {
+        font-size: 1.2rem;
+    }
+}
+
+
+
