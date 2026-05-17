@@ -1,8 +1,8 @@
-# Barbershop Appointment Booking System
+# Jamir Barbershop Appointment Booking System
 
 ## Overview
 
-The Barbershop Appointment Booking System is a web-based platform designed to modernize and automate the appointment management process for barbershops. The system enhances customer convenience, improves staff workflow, and provides centralized management for administrators across multiple branches.
+Jamir Barbershop's Appointment Booking System is a web-based platform designed to modernize and automate the appointment management process for barbershops. The system enhances customer convenience, improves staff workflow, and provides centralized management for administrators across multiple branches.
 
 This study focuses on implementing automation and recommendation-based features to improve existing appointment systems. The platform aims to deliver a more efficient booking experience while also improving overall user interaction and usability.
 
