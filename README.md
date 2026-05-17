@@ -1,61 +1,219 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Barbershop Appointment Booking System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Overview
 
-## About Laravel
+The Barbershop Appointment Booking System is a web-based platform designed to modernize and automate the appointment management process for barbershops. The system enhances customer convenience, improves staff workflow, and provides centralized management for administrators across multiple branches.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This study focuses on implementing automation and recommendation-based features to improve existing appointment systems. The platform aims to deliver a more efficient booking experience while also improving overall user interaction and usability.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Key Features
 
-## Learning Laravel
+## Multiple Interfaces
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The system provides separate interfaces for:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* Customers
+* Staff/Barbers
+* Administrators
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Each interface is designed to support the specific roles, permissions, and responsibilities of its users.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Appointment Booking
 
-### Premium Partners
+Customers can independently book appointments without requiring staff assistance. The booking process includes:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+* Branch selection
+* Service selection
+* Barber selection
+* Schedule selection
 
-## Contributing
+The system automatically adjusts appointment duration depending on the number of selected services.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## Automated Notifications
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+The system automatically sends notifications through:
 
-## Security Vulnerabilities
+* Email
+* SMS
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Features include:
 
-## License
+* Appointment reminders
+* Appointment confirmations
+* Staff schedule notifications
+* Email verification links
+* SMS OTP verification for phone registrations
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## AI-Based Haircut Recommendations
+
+The platform provides personalized haircut recommendations using Artificial Intelligence.
+
+How it works:
+
+1. Users upload a facial photo
+2. The system analyzes the user’s face shape
+3. Suitable haircut styles are recommended automatically
+
+This feature helps customers discover hairstyles that best match their facial structure.
+
+---
+
+## Barber Recommendations
+
+During the appointment process, the system automatically recommends barbers based on the selected haircut or service specialization.
+
+Customers may still freely choose other barbers if preferred.
+
+---
+
+## Customer Reviews and Ratings
+
+Customers can submit reviews after completing appointments.
+
+Features include:
+
+* 1–5 star rating system
+* Optional written feedback
+* Anonymous review option
+
+This helps improve service quality and customer satisfaction.
+
+---
+
+## Loyalty Program
+
+The system includes a loyalty rewards feature where customers can:
+
+* Earn loyalty progress after completed appointments
+* Receive discounts and promotions
+* Track loyalty card progress
+
+Both staff and administrators can monitor customer loyalty information.
+
+---
+
+## Home Advertisements Management
+
+The website homepage displays:
+
+* Current promotions
+* Discounts
+* Featured services
+* Announcements
+
+Administrators can easily manage and update advertisements through the admin panel.
+
+---
+
+## Barber Calendar
+
+The system provides scheduling calendars for:
+
+* Customers (public barber availability)
+* Staff (personal schedules)
+* Administrators (all branch schedules)
+
+This improves scheduling transparency and appointment management.
+
+---
+
+## Centralized Branch Management
+
+The system uses a centralized database architecture that allows administrators to manage multiple branches within a single platform.
+
+The admin dashboard includes:
+
+* Analytics and reports
+* Appointment schedules
+* Customer records
+* Barber information
+* Branch monitoring
+
+---
+
+# Objectives
+
+The system aims to:
+
+* Improve appointment scheduling efficiency
+* Reduce manual booking processes
+* Enhance customer experience
+* Provide intelligent recommendations
+* Simplify branch management
+* Increase communication through automated notifications
+* Evaluate overall system usability through user feedback
+
+---
+
+# Technologies Used
+
+Possible technologies used in the system include:
+
+* Laravel Framework
+* PHP
+* MySQL
+* Livewire
+* Filament Admin Panel
+* JavaScript
+* Tailwind CSS
+* AI-based facial analysis tools
+* SMS and Email API integrations
+
+---
+
+# Target Users
+
+The system is intended for:
+
+* Barbershop Customers
+* Barbers/Staff
+* Barbershop Owners and Administrators
+
+---
+
+# Conclusion
+
+The Barbershop Appointment Booking System provides a modern and intelligent solution for managing barbershop operations. By combining automation, AI-powered recommendations, centralized management, and customer-focused features, the system improves efficiency, enhances user experience, and supports better service delivery across multiple branches.
+
+# System Requirements 
+
+Before running the project, make sure you have the following installed:
+
+* PHP >= 8.x
+* Composer
+* MySQL
+* Laravel
+* Node.js & NPM
+* Git
+* XAMPP / Laragon / WAMP
+
+# Installation Guide
+
+1. Clone the Repository or Download as Zip File
+       For cloning: git clone https://github.com/your-username/your-repository-name.git
+       Extract the Zip file and open on your text editor
+2. Install PHP Dependencies
+       composer install
+3. Install Node Dependencies
+       npm install
+4. Configure Environment File
+    Copy the example environment file:
+        cp env.example env
+    Update the database configuration inside the .env file:
+        DB_DATABASE=your_database_name
+        DB_USERNAME=your_username
+        DB_PASSWORD=your_password
+5. Create a Symbolic Link
+        php artisan storage:link
+6. Compile Frontend Assets
+       npm run dev
+8. Run the Development Server
+       php artisan serve
