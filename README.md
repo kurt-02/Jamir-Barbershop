@@ -198,7 +198,7 @@ Before running the project, make sure you have the following installed:
 # Installation Guide
 
 1. Clone the Repository or Download as Zip File
-       For cloning: git clone https://github.com/kurt-02/your-repository-name.git
+       For cloning: git clone https://github.com/kurt-02/Jamir-Barbershop.git
        Extract the Zip file and open on your text editor
 2. Install PHP Dependencies
        composer install
